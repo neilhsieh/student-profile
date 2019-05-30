@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+body {
+  background-color: #eff1f4;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+
+input {
+  border: none;
+  font-weight: thin;
+  font-family: 'Raleway', sans-serif;
+  outline: none
+}
+
+.App {
+  width: 900px;
+  height: 610px;
+  overflow: scroll;
+  margin-top: 80px;
+
+  border: solid;
+  border-width: 1px;
+  border-color: #e0e0e0;
+  border-radius: 15px;
+
+  background-color: white;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.student-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.each-student {
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 1.5em 0 1.5em 0;
+}
+
+.profile-pic {
+  width: 7em;
+  height: auto;
+  margin: 0 2em 0 1.5em; 
+}
+
+.profile-pic img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 3.5em;
+}
+
+.student-name {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.student-info {
+  font-weight: thin;
+  font-family: 'Raleway', sans-serif;
+  margin: 1em 0 0 1em;
+}
+
+.student-info li{
+  padding-bottom: 3px;
+}
+
+.searchbar {
+  width: 98%;
+  margin: 0 1% 0 1%;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.searchbar-2 {
+  width: 98%;
+  margin: 0 1% 0 1%;
+  border-bottom: 2px solid black;
+}
+
+.searchbar input, .searchbar-2 input {
+  font-size: 1.25em;
+  padding: 5px;
+  margin: 10px 0 5px 0;
+
+  width: 100%;
+}
+
+.expand-button {
+  height: 50%;
+  padding: 0;
+  margin: 0 10px 0 auto;
+
+  float: right;
+}
+
+.expand-button button {
+  border: none;
+  outline: none;
+  word-spacing: 0;
+  height: 50%;
+  line-height: 40%;
+  
+  font-weight: thin;
+  font-family: 'Raleway', sans-serif;
+  font-size: 4.5em;
+  color: #bababa;
+}
+
+.expand-button button:hover {
+  color: black;
+}
+
+.grades {
+  margin-top: 20px;
+}
+
+.each-grade {
+  display: flex;
+}
+
+#grade {
+  margin-left: 30px;
+}
+
+.grades input {
+  font-size: 1em;
+  border-bottom: 1px solid #bfbfbf;
+  padding: 18px 0 8px 0;
+
+}
